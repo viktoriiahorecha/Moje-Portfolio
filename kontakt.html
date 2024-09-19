@@ -1,0 +1,54 @@
+Новые быстрые клавиши. … Быстрые клавиши для работы с Диском обновлены, и теперь у вас есть возможность навигации по первым буквам слов.
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Moje Portfolio</title>
+</head>
+<body>
+    <section id="baner">
+        <h1><b>Kontakt</b></h1>
+    </section>
+    <section id="menu">
+        <a href="index.html">Strona Główna</a>
+        <a href="o-mnie.html">O Mnie</a>
+        <a href="projekty.html">Projekty</a>
+        <a href="kontakt.html">Kontakt</a>
+    </section>
+    <section id="opis">
+        <form>
+            <table>
+                <tr>
+                    <td>Imię:</td>
+                    <td><input type="text" id="imie"></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" id="email"></td>
+                </tr>
+                <tr>
+                    <td>Wiadomość:</td>
+                   <td><textarea  cols="40" rows="10" id="wiadomosc"></textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button type="button" onclick="formularz()">Wyślij</button></td>
+                </tr>
+            </table>
+        </form>
+        <p id="wynik"></p>
+        <script src="script.js"></script>
+        <br>
+        <hr>
+        <p>Moje dane kontaktowe:
+            <ul>
+                <li>horecha.viktoriia@gmail.com</li>
+                <li>+48 0000 000 000</li>
+            </ul>
+        </p>
+        
+    </section>
+</body>
+</html>
